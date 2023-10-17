@@ -27,13 +27,13 @@ while True:
         askNumbers()
         print("La suma de " + str(number1) + " + " + str(number2) + " = " + str(number1+number2))
     elif opt == 2:
-        askNumbers(number1, number2)
+        askNumbers()
         print("La resta de " +  str(number1) + " - " + str(number2) + " = " + str(number1 - number2))
     elif opt == 3:
-        askNumbers(number1, number2)
+        askNumbers()
         print("La multiplicacion de " +  str(number1) + " + " + str(number2) + " = " + str(number1 + number2))
     elif opt == 4:
-        askNumbers(number1, number2)
+        askNumbers()
         print("La division de " +  str(number1) + " / " + str(number2) + " = " + str(number1 / number2))
     elif opt == 5 or opt > 5 or opt < 1:
         break
